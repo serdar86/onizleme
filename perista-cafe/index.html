@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Perista Cafe &middot; Dyckman St · Inwood · New York</title>
+<meta name="description" content="Coffee, food and a seat by the window in Inwood.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sora:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f9f8;--bg2:#12343b;--ink:#12343b;--inkH:#eef6f5;--acc:#e8b04b;--acc2:#f6e3b4;--soft:#5d7277;--line:#d9e6e4;--band:#e8b04b;--bandInk:#12343b;--r:20px;--br:14px}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow-x:clip}
+body{font-family:'Sora',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.w{max-width:1120px;margin:0 auto;padding:0 20px}
+.w>*,.hero .w>*,.vg>*{min-width:0}
+.d{font-family:'Instrument Serif',Georgia,serif;font-weight:400;text-transform:none;letter-spacing:-.01em;line-height:1.04}
+.lbl{font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--acc)}
+.demo{background:var(--ink);color:var(--bg);font-size:13px;text-align:center;padding:7px 16px}
+.top{position:sticky;top:0;z-index:20;background:var(--bg2);color:var(--inkH);border-bottom:1px solid rgba(127,127,127,.18)}
+.top .w{display:flex;justify-content:space-between;align-items:center;height:66px;gap:16px}
+.logo{font-family:'Instrument Serif',Georgia,serif;font-weight:400;text-transform:none;font-size:24px;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.links{display:flex;gap:26px;font-size:15px;opacity:.8}.links a:hover{opacity:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 26px;border-radius:var(--br);font-weight:600;font-size:16px;transition:transform .15s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.b1{background:var(--acc);color:#1a1a1a}.b2{border:1.5px solid currentColor}
+.top .btn{height:42px;padding:0 18px;font-size:14px}
+.hero{background:var(--bg2);color:var(--inkH);padding:64px 0 80px;position:relative;overflow:hidden}
+.hero .w{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
+.hero h1{font-size:clamp(42px,6.4vw,82px);margin:16px 0 20px}
+.hero p{font-size:19px;opacity:.85;max-width:30em;margin-bottom:30px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.rate{display:flex;align-items:center;gap:14px;margin-top:30px;font-size:15px;opacity:.9}
+.rate b{font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:46px;line-height:1;color:var(--acc)}
+.st{color:#f2b01e;letter-spacing:2px}
+.sig{width:100%;max-width:440px;margin-left:auto;display:block}
+.af{fill:var(--acc)}.a2f{fill:var(--acc2)}.kf{fill:var(--ink)}.sk{stroke:var(--ink)}.ln{stroke:var(--line)}.met{fill:#cfd3d8}
+.cut path{stroke:var(--acc2);stroke-dasharray:240;stroke-dashoffset:240;animation:draw 1s ease-out .4s forwards}
+.cut path:nth-child(2){animation-delay:.65s}.cut path:nth-child(3){animation-delay:.9s}
+@keyframes draw{to{stroke-dashoffset:0}}
+.swirl{transform-origin:215px 224px;animation:spin 30s linear infinite}
+.food{transform-origin:242px 210px;animation:spin 60s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.stripes{animation:pole 2.6s linear infinite}
+@keyframes pole{to{transform:translateY(92.4px)}}
+.bloom{transform-origin:210px 232px;animation:bloom 1.6s cubic-bezier(.2,.8,.2,1) .2s both}
+@keyframes bloom{from{transform:scale(0) rotate(-40deg)}to{transform:scale(1) rotate(0)}}
+.arc{stroke:var(--acc);stroke-dasharray:550;stroke-dashoffset:550;animation:arc 1.6s ease-out .3s forwards}
+@keyframes arc{to{stroke-dashoffset:150}}
+.needle{transform-origin:220px 250px;animation:needle 1.6s cubic-bezier(.3,1.4,.5,1) .3s both}
+@keyframes needle{from{transform:rotate(-88deg)}to{transform:rotate(38deg)}}
+.b1,.b2,.b3{animation:float 4s ease-in-out infinite alternate}.b2{animation-delay:-1.3s}.b3{animation-delay:-2.6s}
+@keyframes float{from{transform:translateY(0)}to{transform:translateY(-10px)}}
+@media (prefers-reduced-motion:reduce){.cut path,.arc{animation:none;stroke-dashoffset:0}.swirl,.food,.stripes,.bloom,.needle,.b1,.b2,.b3{animation:none}}
+.items{padding:88px 0}
+.items h2{font-size:clamp(34px,4.6vw,56px);margin:10px 0 40px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.it{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px;position:relative;overflow:hidden}
+.it::before{content:"";position:absolute;left:0;top:0;right:0;height:6px;background:var(--acc)}
+.it:nth-child(2)::before{background:var(--acc2)}
+.it h3{font-family:'Instrument Serif',Georgia,serif;font-weight:400;text-transform:none;font-size:26px;line-height:1.1;margin:6px 0 6px}
+.it p{color:var(--soft);font-size:15px}
+.fine{font-size:13px;color:var(--soft);margin-top:22px}
+.proof{background:var(--band);color:var(--bandInk);padding:80px 0}
+.proof .w{display:grid;grid-template-columns:auto 1fr;gap:56px;align-items:center}
+.proof .n{font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:clamp(96px,13vw,170px);line-height:.85}
+.proof .lbl{color:inherit;opacity:.75}
+.proof h2{font-size:clamp(28px,3.8vw,46px);margin:10px 0 12px}
+.proof p{opacity:.85;max-width:34em}
+.proof a{display:inline-block;margin-top:16px;font-weight:700;border-bottom:2px solid}
+.visit{padding:88px 0}
+.vg{display:grid;grid-template-columns:1fr 1.2fr;gap:44px}
+.visit h2{font-size:clamp(32px,4.4vw,52px);margin:10px 0 24px}
+dl{display:grid;gap:18px;margin-bottom:28px}dt{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);font-weight:600}dd{font-size:18px}
+dd a{border-bottom:2px solid var(--acc)}
+.map{border-radius:var(--r);overflow:hidden;min-height:360px;background:var(--line);border:1px solid var(--line)}.map iframe{width:100%;height:100%;min-height:360px;border:0;display:block}
+footer{background:var(--bg2);color:var(--inkH);padding:26px 0 104px;font-size:14px}
+footer .w{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;opacity:.8}
+.bar{position:fixed;left:12px;right:12px;bottom:12px;z-index:30;display:none;gap:8px}
+.bar .btn{flex:1;height:48px;padding:0 12px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.bar .b2{background:var(--bg2);color:var(--inkH);border-color:var(--bg2)}
+@media (max-width:860px){
+ .links,.top .btn{display:none}
+ .hero{padding:32px 0 56px}
+ .hero .w,.proof .w,.vg{grid-template-columns:1fr}
+ .sig{max-width:280px;margin:0 auto;order:-1}
+ .grid{grid-template-columns:1fr}
+ .items,.visit{padding:60px 0}.proof{padding:56px 0}
+ .proof .w{gap:16px}
+ .bar{display:flex}
+}
+</style>
+</head>
+<body>
+<div class="demo">Preview: this page is a design sample made for Perista Cafe – it is not the business's official website.</div>
+<header class="top"><div class="w">
+<a class="logo" href="#">Perista Cafe</a>
+<nav class="links" aria-label="Page sections"><a href="#items">Menu</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+<a class="btn b1" href="tel:+16464905111">Call</a>
+</div></header>
+<main>
+<section class="hero"><div class="w">
+<div>
+<div class="lbl">Dyckman St · Inwood · New York</div>
+<h1 class="d">Your café on Dyckman Street.</h1>
+<p>Coffee, food and a seat by the window in Inwood.</p>
+<div class="cta"><a class="btn b1" href="tel:+16464905111">Call (646) 490-5111</a><a class="btn b2" href="https://www.google.com/maps/dir/?api=1&amp;destination=Perista%20Cafe%20105%20Dyckman%20St%20New%20York" target="_blank" rel="noopener">Directions</a></div>
+<div class="rate"><b>3.9</b><div><span class="st" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span><br>218 Google reviews</div></div>
+</div>
+<svg class="sig" viewBox="0 0 440 440" aria-hidden="true">
+<circle cx="215" cy="230" r="196" fill="#fff" opacity=".95"/>
+<circle cx="215" cy="230" r="170" fill="none" stroke="#000" stroke-opacity=".07" stroke-width="2"/>
+<rect x="320" y="200" width="96" height="48" rx="24" class="af"/>
+<circle cx="215" cy="224" r="140" class="af"/>
+<circle cx="215" cy="224" r="116" fill="#5a3522"/>
+<g class="swirl"><circle cx="215" cy="224" r="92" fill="none" stroke="#a3714d" stroke-width="5" stroke-dasharray="14 12" opacity=".6"/><path d="M215 282 C 145 232, 165 168, 215 198 C 265 168, 285 232, 215 282Z" fill="#f1dcc0"/></g>
+</svg>
+</div></section>
+<section class="items" id="items"><div class="w">
+<div class="lbl">Menu</div>
+<h2 class="d">What's on the menu</h2>
+<div class="grid"><div class="it"><h3>Coffee</h3><p>Espresso, lattes and more</p></div><div class="it"><h3>Food</h3><p>Breakfast and lunch</p></div><div class="it"><h3>Desserts</h3><p>Something sweet</p></div></div>
+<p class="fine">Sample content for this preview. The live site would show your real menu or services, prices and photos.</p>
+</div></section>
+<section class="proof" id="reviews"><div class="w"><div class="n">3.9</div><div><div class="lbl">Google reviews</div><h2 class="d">218 customers have had their say.</h2><p>An average rating of 3.9. Read every review on Google.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Perista%20Cafe%20105%20Dyckman%20St%20New%20York" target="_blank" rel="noopener">Read the reviews on Google</a></div></div></section>
+<section class="visit" id="visit"><div class="w"><div class="vg">
+<div>
+<div class="lbl">Visit</div>
+<h2 class="d">105-A Dyckman St</h2>
+<dl>
+<div><dt>Address</dt><dd>105-A Dyckman St<br>New York, NY 10040</dd></div>
+<div><dt>Phone</dt><dd><a href="tel:+16464905111">(646) 490-5111</a></dd></div>
+<div><dt>Hours</dt><dd>Shown on the live site</dd></div>
+</dl>
+<div class="cta"><a class="btn b1" href="tel:+16464905111">Call</a><a class="btn b2" href="https://www.instagram.com/peristacafe/" target="_blank" rel="noopener">Instagram</a></div>
+</div>
+<div class="map"><iframe loading="lazy" title="Perista Cafe map" src="https://maps.google.com/maps?q=Perista%20Cafe%20105%20Dyckman%20St%20New%20York&amp;output=embed"></iframe></div>
+</div></div></section>
+</main>
+<footer><div class="w"><div>&copy; Perista Cafe &middot; Dyckman St · Inwood · New York</div><div><a href="https://www.instagram.com/peristacafe/" target="_blank" rel="noopener">Instagram</a> &middot; <a href="https://www.facebook.com/PeristaCafe/" target="_blank" rel="noopener">Facebook</a></div></div></footer>
+<nav class="bar" aria-label="Quick actions"><a class="btn b1" href="tel:+16464905111">Call</a><a class="btn b2" href="https://www.google.com/maps/dir/?api=1&amp;destination=Perista%20Cafe%20105%20Dyckman%20St%20New%20York" target="_blank" rel="noopener">Directions</a></nav>
+</body>
+</html>
