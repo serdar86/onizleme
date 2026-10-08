@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Café de la Mairie &middot; Place Jean Macé · Lyon 7e</title>
+<meta name="description" content="Un café le matin, un plat à midi, un verre le soir. Place Jean Macé, Lyon 7e.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f6f3;--bg2:#141b2d;--ink:#141b2d;--inkH:#eef0f6;--acc:#e46b4f;--acc2:#f2c14e;--soft:#646b7c;--line:#dfe1e8;--band:#e46b4f;--bandInk:#ffffff;--r:8px;--br:6px}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow-x:clip}
+body{font-family:'Manrope',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.w{max-width:1120px;margin:0 auto;padding:0 20px}
+.w>*,.hero .w>*,.vg>*{min-width:0}
+.d{font-family:'Abril Fatface',Georgia,serif;font-weight:400;text-transform:none;letter-spacing:0;line-height:1.04}
+.lbl{font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--acc)}
+.demo{background:var(--ink);color:var(--bg);font-size:13px;text-align:center;padding:7px 16px}
+.top{position:sticky;top:0;z-index:20;background:var(--bg2);color:var(--inkH);border-bottom:1px solid rgba(127,127,127,.18)}
+.top .w{display:flex;justify-content:space-between;align-items:center;height:66px;gap:16px}
+.logo{font-family:'Abril Fatface',Georgia,serif;font-weight:400;text-transform:none;font-size:24px;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.links{display:flex;gap:26px;font-size:15px;opacity:.8}.links a:hover{opacity:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 26px;border-radius:var(--br);font-weight:600;font-size:16px;transition:transform .15s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.b1{background:var(--acc);color:#ffffff}.b2{border:1.5px solid currentColor}
+.top .btn{height:42px;padding:0 18px;font-size:14px}
+.hero{background:var(--bg2);color:var(--inkH);padding:64px 0 80px;position:relative;overflow:hidden}
+.hero .w{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center}
+.hero h1{font-size:clamp(42px,6.4vw,82px);margin:16px 0 20px}
+.hero p{font-size:19px;opacity:.85;max-width:30em;margin-bottom:30px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.rate{display:flex;align-items:center;gap:14px;margin-top:30px;font-size:15px;opacity:.9}
+.rate b{font-family:'Abril Fatface',Georgia,serif;font-weight:400;font-size:46px;line-height:1;color:var(--acc)}
+.st{color:#f2b01e;letter-spacing:2px}
+.sig{width:100%;max-width:440px;margin-left:auto;display:block}
+.af{fill:var(--acc)}.a2f{fill:var(--acc2)}.kf{fill:var(--ink)}.sk{stroke:var(--ink)}.ln{stroke:var(--line)}.met{fill:#cfd3d8}
+.cut path{stroke:var(--acc2);stroke-dasharray:240;stroke-dashoffset:240;animation:draw 1s ease-out .4s forwards}
+.cut path:nth-child(2){animation-delay:.65s}.cut path:nth-child(3){animation-delay:.9s}
+@keyframes draw{to{stroke-dashoffset:0}}
+.swirl{transform-origin:215px 224px;animation:spin 30s linear infinite}
+.food{transform-origin:242px 210px;animation:spin 60s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.stripes{animation:pole 2.6s linear infinite}
+@keyframes pole{to{transform:translateY(92.4px)}}
+.bloom{transform-origin:210px 232px;animation:bloom 1.6s cubic-bezier(.2,.8,.2,1) .2s both}
+@keyframes bloom{from{transform:scale(0) rotate(-40deg)}to{transform:scale(1) rotate(0)}}
+.arc{stroke:var(--acc);stroke-dasharray:550;stroke-dashoffset:550;animation:arc 1.6s ease-out .3s forwards}
+@keyframes arc{to{stroke-dashoffset:150}}
+.needle{transform-origin:220px 250px;animation:needle 1.6s cubic-bezier(.3,1.4,.5,1) .3s both}
+@keyframes needle{from{transform:rotate(-88deg)}to{transform:rotate(38deg)}}
+.b1,.b2,.b3{animation:float 4s ease-in-out infinite alternate}.b2{animation-delay:-1.3s}.b3{animation-delay:-2.6s}
+@keyframes float{from{transform:translateY(0)}to{transform:translateY(-10px)}}
+@media (prefers-reduced-motion:reduce){.cut path,.arc{animation:none;stroke-dashoffset:0}.swirl,.food,.stripes,.bloom,.needle,.b1,.b2,.b3{animation:none}}
+.items{padding:88px 0}
+.items h2{font-size:clamp(34px,4.6vw,56px);margin:10px 0 40px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.it{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px;position:relative;overflow:hidden}
+.it::before{content:"";position:absolute;left:0;top:0;right:0;height:6px;background:var(--acc)}
+.it:nth-child(2)::before{background:var(--acc2)}
+.it h3{font-family:'Abril Fatface',Georgia,serif;font-weight:400;text-transform:none;font-size:26px;line-height:1.1;margin:6px 0 6px}
+.it p{color:var(--soft);font-size:15px}
+.fine{font-size:13px;color:var(--soft);margin-top:22px}
+.proof{background:var(--band);color:var(--bandInk);padding:80px 0}
+.proof .w{display:grid;grid-template-columns:auto 1fr;gap:56px;align-items:center}
+.proof .n{font-family:'Abril Fatface',Georgia,serif;font-weight:400;font-size:clamp(96px,13vw,170px);line-height:.85}
+.proof .lbl{color:inherit;opacity:.75}
+.proof h2{font-size:clamp(28px,3.8vw,46px);margin:10px 0 12px}
+.proof p{opacity:.85;max-width:34em}
+.proof a{display:inline-block;margin-top:16px;font-weight:700;border-bottom:2px solid}
+.visit{padding:88px 0}
+.vg{display:grid;grid-template-columns:1fr 1.2fr;gap:44px}
+.visit h2{font-size:clamp(32px,4.4vw,52px);margin:10px 0 24px}
+dl{display:grid;gap:18px;margin-bottom:28px}dt{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);font-weight:600}dd{font-size:18px}
+dd a{border-bottom:2px solid var(--acc)}
+.map{border-radius:var(--r);overflow:hidden;min-height:360px;background:var(--line);border:1px solid var(--line)}.map iframe{width:100%;height:100%;min-height:360px;border:0;display:block}
+footer{background:var(--bg2);color:var(--inkH);padding:26px 0 104px;font-size:14px}
+footer .w{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;opacity:.8}
+.bar{position:fixed;left:12px;right:12px;bottom:12px;z-index:30;display:none;gap:8px}
+.bar .btn{flex:1;height:48px;padding:0 12px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.bar .b2{background:var(--bg2);color:var(--inkH);border-color:var(--bg2)}
+@media (max-width:860px){
+ .links,.top .btn{display:none}
+ .hero{padding:32px 0 56px}
+ .hero .w,.proof .w,.vg{grid-template-columns:1fr}
+ .sig{max-width:280px;margin:0 auto;order:-1}
+ .grid{grid-template-columns:1fr}
+ .items,.visit{padding:60px 0}.proof{padding:56px 0}
+ .proof .w{gap:16px}
+ .bar{display:flex}
+}
+</style>
+</head>
+<body>
+<div class="demo">Aperçu : cette page est un exemple de design préparé pour Café de la Mairie – ce n'est pas le site officiel de l'établissement.</div>
+<header class="top"><div class="w">
+<a class="logo" href="#">Café de la Mairie</a>
+<nav class="links" aria-label="Sections"><a href="#items">La carte</a><a href="#reviews">Avis</a><a href="#visit">Accès</a></nav>
+<a class="btn b1" href="tel:+33987651176">Appeler</a>
+</div></header>
+<main>
+<section class="hero"><div class="w">
+<div>
+<div class="lbl">Place Jean Macé · Lyon 7e</div>
+<h1 class="d">Le café-restaurant de la place Jean Macé.</h1>
+<p>Un café le matin, un plat à midi, un verre le soir. Place Jean Macé, Lyon 7e.</p>
+<div class="cta"><a class="btn b1" href="tel:+33987651176">Appeler +33 9 87 65 11 76</a><a class="btn b2" href="https://www.google.com/maps/dir/?api=1&amp;destination=Caf%C3%A9%20de%20la%20Mairie%2015%20Place%20Jean%20Mac%C3%A9%2069007%20Lyon" target="_blank" rel="noopener">Itinéraire</a></div>
+<div class="rate"><b>4,2</b><div><span class="st" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span><br>172 avis Google</div></div>
+</div>
+<svg class="sig" viewBox="0 0 480 420" aria-hidden="true">
+<g class="met"><rect x="34" y="150" width="14" height="230" rx="7"/><rect x="22" y="40" width="7" height="100" rx="3"/><rect x="37" y="40" width="7" height="100" rx="3"/><rect x="52" y="40" width="7" height="100" rx="3"/><rect x="20" y="126" width="42" height="34" rx="10"/><path d="M448 40 C 476 90 476 170 456 210 L456 370 Q446 386 436 370 L436 40Z"/></g>
+<circle cx="242" cy="218" r="186" fill="#000" opacity=".2"/>
+<circle cx="242" cy="210" r="184" fill="#fff"/>
+<circle cx="242" cy="210" r="150" fill="none" class="ln" stroke-width="3"/>
+<g class="food"><circle cx="242" cy="210" r="86" class="af" opacity=".95"/><circle cx="212" cy="186" r="26" class="a2f"/><circle cx="276" cy="232" r="20" class="a2f" opacity=".85"/><path d="M262 166 q22 -26 44 -6 q-20 22 -44 6Z" fill="#5d8a3c"/><path d="M196 246 q-6 -30 22 -32 q4 24 -22 32Z" fill="#5d8a3c"/><g fill="#fff" opacity=".7"><circle cx="246" cy="196" r="4"/><circle cx="230" cy="232" r="3"/><circle cx="262" cy="206" r="3"/></g></g>
+</svg>
+</div></section>
+<section class="items" id="items"><div class="w">
+<div class="lbl">La carte</div>
+<h2 class="d">À la carte</h2>
+<div class="grid"><div class="it"><h3>Le matin</h3><p>Café et petit-déjeuner</p></div><div class="it"><h3>Le midi</h3><p>Plat du jour</p></div><div class="it"><h3>Le soir</h3><p>Un verre entre amis</p></div></div>
+<p class="fine">Contenu d'exemple. Sur le vrai site : votre carte ou vos prestations, vos prix et vos photos.</p>
+</div></section>
+<section class="proof" id="reviews"><div class="w"><div class="n">4,2</div><div><div class="lbl">Avis Google</div><h2 class="d">172 clients ont donné leur avis.</h2><p>Une note moyenne de 4,2. Tous les avis sont à lire sur Google.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Caf%C3%A9%20de%20la%20Mairie%2015%20Place%20Jean%20Mac%C3%A9%2069007%20Lyon" target="_blank" rel="noopener">Lire les avis sur Google</a></div></div></section>
+<section class="visit" id="visit"><div class="w"><div class="vg">
+<div>
+<div class="lbl">Accès</div>
+<h2 class="d">15 place Jean Macé</h2>
+<dl>
+<div><dt>Adresse</dt><dd>15 place Jean Macé<br>69007 Lyon</dd></div>
+<div><dt>Téléphone</dt><dd><a href="tel:+33987651176">+33 9 87 65 11 76</a></dd></div>
+<div><dt>Horaires</dt><dd>Indiqués sur le site final</dd></div>
+</dl>
+<div class="cta"><a class="btn b1" href="tel:+33987651176">Appeler</a><a class="btn b2" href="https://www.facebook.com/p/Caf%C3%A9-de-la-Mairie-61563957825886/" target="_blank" rel="noopener">Facebook</a></div>
+</div>
+<div class="map"><iframe loading="lazy" title="Café de la Mairie plan" src="https://maps.google.com/maps?q=Caf%C3%A9%20de%20la%20Mairie%2015%20Place%20Jean%20Mac%C3%A9%2069007%20Lyon&amp;output=embed"></iframe></div>
+</div></div></section>
+</main>
+<footer><div class="w"><div>&copy; Café de la Mairie &middot; Place Jean Macé · Lyon 7e</div><div><a href="https://www.facebook.com/p/Caf%C3%A9-de-la-Mairie-61563957825886/" target="_blank" rel="noopener">Facebook</a></div></div></footer>
+<nav class="bar" aria-label="Actions rapides"><a class="btn b1" href="tel:+33987651176">Appeler</a><a class="btn b2" href="https://www.google.com/maps/dir/?api=1&amp;destination=Caf%C3%A9%20de%20la%20Mairie%2015%20Place%20Jean%20Mac%C3%A9%2069007%20Lyon" target="_blank" rel="noopener">Itinéraire</a></nav>
+</body>
+</html>
